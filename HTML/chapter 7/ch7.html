@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 7</title>
+  </head>
+  <body>
+    <form action="www.example.com" method="POST">
+      <h1>Chapter # 7 - Forms</h1>
+      <fieldset>
+        <legend>Your Details</legend>
+        <p>
+          Name:
+          <input type="text" size="15" maxlength="30" />
+        </p>
+        <p>
+          Name:
+          <input type="email" size="15" maxlength="30" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+
+        <p>
+          How did you hear abour us?
+          <select name="list" id="no1">
+            <option value="Google">Google</option>
+            <option value="FaceBok">FaceBok</option>
+          </select>
+        </p>
+        <p>
+          Would You visit again?<br />
+          <input type="radio" id="f1" name="feedback" value="yes" />
+          <label for="f1">Yes</label>
+          <input type="radio" id="f2" name="feedback" value="No" />
+          <label for="f2">No</label>
+          <input type="radio" name="feedback" id="f3" value="MayBe" />
+          <label for="f3">MayBe</label>
+        </p>
+        <p>
+          Comments:<br />
+          <textarea name="comments" id="cmnts" cols="30" rows="5"></textarea>
+        </p>
+        <p>
+          <input type="checkbox" name="signup" value="signup" />
+          Sign me up for email updates
+        </p>
+        <input type="submit" value="submit review" />
+      </fieldset>
+    </form>
+  </body>
+</html>
