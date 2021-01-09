@@ -1,0 +1,20 @@
+#mainHeading{
+    font-weight: bolder;
+}
+#mainpara{
+    text-shadow: 2px 2px 3px black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#blueanchor{
+    color: blue;
+}
+.boldtext{
+    font-weight: bold;
+}
+#linkcenter{
+    text-align: center;
+    font-style: italic;
+}
