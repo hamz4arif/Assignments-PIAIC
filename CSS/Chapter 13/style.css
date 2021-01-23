@@ -3,5 +3,8 @@
     /* border: 3px solid green; */
 }
 .card{
-    width: 50px;
+    width: 200px;
+}
+.card-img-top{
+    width: 100%;
 }
